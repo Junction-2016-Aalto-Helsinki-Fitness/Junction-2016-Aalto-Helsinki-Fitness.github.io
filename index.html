@@ -1,0 +1,56 @@
+<html>
+<head>
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/styles.css" rel="stylesheet" />
+<title>Betrain</title>
+</head>
+<body style=font-family: Helvetica;">
+
+<div class="container" style="margin-top: 5%;">
+<h1>BETRAIN</h1>
+
+<div class="block-wrapper" style="margin-top: 14%; margin-bottom: 14%; width: 50%; font-size: large;">
+
+
+<h1>Inspiration</h1>
+
+<p>Back in the early summer 2016, we were packed in Hele's car as the discussion turned towards the subject of chatbots and what they could be used for in the future. Hele bemoaned the lack of good apps for tracking your sports trainings without hassle. We thought this was something we could change, and so we decided to apply to Junction to get the idea off the ground.</p>
+
+<h1>What it does</h1>
+
+<p>
+Betrain has four main features. (1) Keeping a training diary with integrations with popular existing tools such as Polar flow services, SportsTracker and HeiaHeia and making analyses of done workouts to follow the development. (2) Conversational interface which allows you to easily fill the diary without having to write stuff done on a mobile screen. (3) Deep learning AI to recognize problem areas and provide real-time feedback and advices. (4) Same AI used to fill out monthly training templates based on performance goals.</p>
+
+<h1>How we built it</h1>
+
+<p>
+The speech interface is built on top of two components: Microsoft's Bing Speech API providing speech-to-text and text-to-speech, and Chatscript for dialogue management. Interfacing between the APIs and applications turned out to be rather difficult, with Chatscript even having its own application protocol. Debugging took much of our time as usual. In addition, we produced mockups of our app's screens and implemented 75% of these in React Native.</p>
+
+<p>
+We planned to get data from the Polar API and to train a deep learner to predict an athlete's near-term development in performance using Tensorflow. We never quite got around to implementing this feature, but it's definitely on the table as we continue perfecting the app in the future.</p>
+
+<h1>Challenges we ran into</h1>
+
+<p>
+Time was our enemy number one. Even though many of us barely slept, our initial app idea was too ambitious to even produce proofs of concept of most of our planned features.</p>
+
+<h1>Accomplishments</h1>
+
+<p>We got a good start on our project. Even though a lot had to be scrapped, we got things done. This provides a good basis for continuing our app in the future.</p>
+
+<h1>What we learned</h1>
+
+<p>We learned to configure and use React Native and Microsoft Azure Services. We also sharpened our javascript skills by figuring out websockets.</p>
+
+<h1>What's next for Betrain</h1>
+
+<p>We'll continue to make this into an app, hoping to make it available sometime in Q2 2017.</p>
+
+
+</div>
+
+</div>
+
+</body>
+
+</html>
